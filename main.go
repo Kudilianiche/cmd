@@ -17,4 +17,9 @@ func main() {
 		}
 		fmt.Print("\n")
 	}
+	hello()
+}
+
+func hello() {
+	fmt.Println("Hello!")
 }
